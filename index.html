@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- hide the quiz until the Start button is clicked -->
+        <div id="question-container" class="hide">
+            <div class="timer">
+                <span class="timer-face timer-face--minutes">00
+                    <span class="timer-face">:
+                        <span class="timer-face timer-face--seconds">00</span>
+            </div>
+            <!-- Question 1 -->
+            <div id="question">"Are you a silly goose?"</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">No</button>
+                <button class="btn">Honk</button>
+                <button class="btn">HONK!</button>
+                <button class="btn">Yes</button>
+            </div>
+            <button id="next-btn" class="next-btn btn hide">Next!</button>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Begin!</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
